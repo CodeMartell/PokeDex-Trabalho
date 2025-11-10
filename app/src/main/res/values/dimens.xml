@@ -1,0 +1,5 @@
+<!-- app/src/main/res/values/dimens.xml -->
+<resources>
+    <dimen name="spacing_medium">12dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+</resources>

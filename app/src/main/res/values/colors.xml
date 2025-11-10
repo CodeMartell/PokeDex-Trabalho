@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="detail_background_start">#FF7A8C</color>
+    <color name="detail_background_mid">#FFE6B9</color>
+    <color name="detail_background_end">#FFFFFFFF</color>
+    <color name="stat_hp">#FF5A5F</color>
+    <color name="stat_attack">#F57C00</color>
+    <color name="stat_defense">#039BE5</color>
+    <color name="stat_special_attack">#8E24AA</color>
+    <color name="stat_special_defense">#00897B</color>
+    <color name="stat_speed">#C62828</color>
+    <color name="stat_default">#5E5E5E</color>
+    <color name="stat_track">#1A000000</color>
+    <color name="type_chip_text">#FF1A1A1A</color>
+    <color name="type_chip_background">#FFEFEFEF</color>
+</resources>
