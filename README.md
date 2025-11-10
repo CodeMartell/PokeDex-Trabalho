@@ -1,4 +1,6 @@
-# PokéDex Android
+# PokéDex Android 
+<img width="1224" height="650" alt="image" src="https://github.com/user-attachments/assets/10c7cea0-8c45-47c7-b811-c47c35907d4f" />
+
 
 Uma Pokédex simples em **Kotlin** que busca Pokémons na **PokéAPI**, permite **filtrar por tipo e geração** e mostra **detalhes** (tipos, stats, altura/peso, arte oficial).
 
