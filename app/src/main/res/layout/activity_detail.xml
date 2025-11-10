@@ -35,6 +35,8 @@
             android:foregroundGravity="center"
             app:cardCornerRadius="28dp"
             app:cardElevation="8dp"
+            app:cardBackgroundColor="#F6F7FB"
+            app:strokeColor="#14000000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -54,7 +56,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
-                    android:textColor="@android:color/black"
+                    android:textColor="#1B1B1B"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -63,7 +65,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:textColor="@android:color/black"
+                    android:textColor="#1B1B1B"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:textAlignment="center" />
@@ -85,7 +87,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:textColor="@android:color/black"
+                    android:textColor="#1B1B1B"
                     android:textSize="16sp" />
 
                 <View
@@ -99,7 +101,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:textColor="@android:color/black"
+                    android:textColor="#1B1B1B"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 

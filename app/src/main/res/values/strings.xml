@@ -7,6 +7,7 @@
     <string name="main_loading_description">Carregando…</string>
     <string name="main_empty_state">Nenhum resultado</string>
     <string name="app_name">PokeDex</string>
+    <string name="splash_tagline">Descubra tudo sobre seus Pokémon favoritos</string>
     <string name="detail_artwork_content_description">Arte oficial do Pokémon</string>
     <string name="detail_title_format">%1$s  #%2$d</string>
     <string name="detail_height_weight">Altura: %1$.1f m • Peso: %2$.1f kg</string>

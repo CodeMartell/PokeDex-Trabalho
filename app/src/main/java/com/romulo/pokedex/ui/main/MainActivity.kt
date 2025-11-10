@@ -49,6 +49,7 @@ class MainActivity : AppCompatActivity() {
                 ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, options)
         }
 
+
         // Observa lista
         viewModel.pokemonList.observe(this) { list ->
             adapter.submitList(list)

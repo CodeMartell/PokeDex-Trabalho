@@ -3,8 +3,10 @@
 
     <application
         android:allowBackup="true"
+        android:icon="@drawable/ic_pokeball"
         android:label="PokeDex"
-        android:theme="@style/Theme.Material3.Light.NoActionBar">
+        android:roundIcon="@drawable/ic_pokeball"
+        android:theme="@style/Theme.PokeDex">
 
         <activity android:name=".ui.detail.DetailActivity" />
         <activity android:name=".ui.main.MainActivity" />

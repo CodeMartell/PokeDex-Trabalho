@@ -38,7 +38,6 @@ class MainViewModel(private val repo: PokemonRepository) : ViewModel() {
                 val result = repo.getPokemonList()
                 val typesResult = runCatching { repo.getAvailableTypes() }
                 val generationsResult = runCatching { repo.getAvailableGenerations() }
-                println("🟢 Recebidos ${result.size} pokémons da API")
                 result.take(5).forEachIndexed { i, p ->
                     println("➡️ ${i + 1}. ${p.name} (id=${p.id})")
                 }
@@ -102,13 +101,9 @@ class MainViewModel(private val repo: PokemonRepository) : ViewModel() {
     }
 
     private fun buildTypeOptions(typeNames: List<String>): List<FilterOption> {
-<<<<<<< HEAD
         val sortedTypes = typeNames
             .filterNot { it.equals("unknown", ignoreCase = true) }
             .sortedBy { it.lowercase(Locale.ROOT) }
-=======
-        val sortedTypes = typeNames.sortedBy { it.lowercase(Locale.ROOT) }
->>>>>>> bbccca1 (Load filter options from PokéAPI)
         val options = sortedTypes.map { name ->
             FilterOption(formatTypeLabel(name), name)
         }
@@ -116,13 +111,9 @@ class MainViewModel(private val repo: PokemonRepository) : ViewModel() {
     }
 
     private fun buildGenerationOptions(generationNames: List<String>): List<FilterOption> {
-<<<<<<< HEAD
         val sortedGenerations = generationNames.sortedWith(
             compareBy({ generationSortIndex(it) }, { it.lowercase(Locale.ROOT) })
         )
-=======
-        val sortedGenerations = generationNames.sortedBy { it.lowercase(Locale.ROOT) }
->>>>>>> bbccca1 (Load filter options from PokéAPI)
         val options = sortedGenerations.map { name ->
             FilterOption(formatGenerationLabel(name), name)
         }
